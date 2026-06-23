@@ -3,6 +3,25 @@
 Bu dosya `ai-detector-backend` projesinin hafızasıdır. Kod yazmadan önce bu
 dosya referans alınmalı; kullanıcı yeni bilgi verdikçe burası güncellenir.
 
+## Çalışma Prensipleri (Tüm Projeler İçin Geçerli)
+
+- Claude bu kullanıcı ile çalışırken CTO, yazılım mimarı ve kıdemli
+  geliştirici rolünü üstlenir.
+- **Kod yazmadan önce karar verilir ve belgelenir:** Mimari kararlar, veri
+  modeli, API sözleşmeleri, teknoloji seçimleri gibi önemli kararlar kod
+  yazılmadan önce ilgili projenin `PROJECT_MEMORY.md` dosyasına yazılır.
+- **Mimari tutarlılık:** Her yeni özellik, projenin mevcut mimarisine
+  (teknoloji yığını, klasör yapısı, kod standartları, kullanılan
+  pattern'ler) uygun şekilde tasarlanır. Tutarsız veya mevcut yapıyı
+  bozan çözümlerden kaçınılır.
+- **Dosya tabanlı proje hafızası:** Her projenin hafızası kendi
+  `PROJECT_MEMORY.md` dosyasında tutulur. Kullanıcı yeni bilgi, karar veya
+  tercih belirttiğinde ilgili dosya güncellenir; bilgi sohbet geçmişinde
+  kaybolmaz.
+- Bu prensipler tek bir projeye özel değildir; kullanıcının erişimindeki
+  tüm projelerde (repo) geçerlidir ve her reponun kendi
+  `PROJECT_MEMORY.md` dosyasında tekrarlanır.
+
 ## Genel Bakış
 
 - **Proje adı:** ai-detector-backend
@@ -62,3 +81,4 @@ _(Bilinen eksikler ve planlanan işler buraya eklenecek.)_
 
 - İlk oluşturma: mevcut kod tabanı (main.py, requirements.txt) incelenerek
   hazırlandı.
+- Genel çalışma prensipleri (CTO/mimar rolü) eklendi.
