@@ -32,11 +32,21 @@
 
 ## Oturum Günlüğü
 
-### 2026-07-04 (Oturum 1)
-- Metodoloji ve mimari kuruldu; M1–M11 içerikleri yazıldı.
-- Güncel makro veriler web'den doğrulandı (Fed %3,50–3,75; ABD TÜFE %4,2 — Mayıs 2026;
-  TCMB %37; BTC ~62k $ ve CLARITY Act durumu). Kaynaklar M13'e işlenecek.
-- Sıradaki işler: M12, M13, M14; sonra M15–M18.
+### 2026-07-04 (Oturum 1) — TAMAMLANDI
+- Metodoloji ve mimari kuruldu; **M0–M14 tamamlandı**, her modül ayrı commit ile kaydedildi.
+- Güncel makro veriler web'den doğrulandı ve kaynaklarıyla M13'e işlendi
+  (Fed %3,50–3,75; ABD TÜFE %4,2 — Mayıs 2026; TCMB %37; BTC ~62k $; CLARITY Act durumu).
+- **Sonraki oturum görevleri (öncelik sırasıyla):**
+  1. M15 — `uzmanlar/`: Buffett, Dalio, Lynch, Marks, Graham, Munger, Soros, Wood,
+     Damodaran strateji karşılaştırmaları (yatırımcı başına 1 dosya + karşılaştırma matrisi).
+  2. M16 — `kurum-raporlari/`: SEC/Fed/ECB/TCMB rapor türleri sınıflandırması
+     (hangi rapor, hangi sıklıkta, yatırımcı için hangi sinyal).
+  3. M17 — `kitap-ozetleri/`: artımlı kitap analiz arşivi (önce çekirdek ~20 klasik;
+     her kitap: tez, kanıt, eleştiri, güncelliği). "1000+ kitap" hedefi artımlıdır —
+     oturum başına parti parti büyütülür, tek seferde denenmez.
+  4. M18 — `ajanlar/`: günlük piyasa takip ajanı — önce tasarım dokümanı
+     (veri kaynakları, tetikleme, çıktı formatı, M13'ü otomatik güncelleme akışı), sonra kod.
+  5. M13 revizyonu — açık konular: TR TÜFE, BIST, ECB/BoJ, petrol/altın, S&P 500/CAPE.
 
 ## Kurallar (özet — ayrıntı README.md)
 - Her modül bağımsız commit'lenir; commit mesajı modül adını içerir.

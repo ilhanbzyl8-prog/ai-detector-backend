@@ -71,14 +71,27 @@ dosya referans alınmalı; kullanıcı yeni bilgi verdikçe burası güncellenir
 
 ## Kararlar / Tercihler
 
-_(Kullanıcı tercihleri ve mimari kararlar buraya eklenecek.)_
+- **2026-07-04 — Yatırım Araştırma Sistemi bu repoda:** Kullanıcının talep ettiği
+  yatırım bilgi tabanı (`investment-research/` dizini) bu repoda barındırılır
+  (dal: `claude/investment-research-system-eiikog`). Gerekçe: rentecar-web canlı bir
+  ürün; bu repo minimal/genel amaçlı olduğundan dokümantasyon projesi burada tutuldu.
+- **Modüler çalışma modeli:** Proje tek oturumda bitirilmez; her modül bağımsız
+  tamamlanır ve **ayrı commit** alır. İlerleme `investment-research/PROJECT_STATUS.md`
+  dosyasında izlenir; kesinti sonrası oturumlar oradan devam eder ve tamamlanmış
+  dosyaları yeniden oluşturmaz.
+- **Kaynak/güven disiplini:** Her bilgide kaynak + tarih; doğrulanmamış bilgi
+  `[DOĞRULANMADI]` / `[EĞİTİM VERİSİ]` etiketiyle işaretlenir. Yatırım tavsiyesi verilmez.
 
 ## Yapılacaklar / Açık Konular
 
-_(Bilinen eksikler ve planlanan işler buraya eklenecek.)_
+- Yatırım araştırma sistemi: M15–M18 modülleri (uzman stratejileri, kurum raporları,
+  kitap özetleri arşivi, günlük piyasa takip ajanı) — ayrıntı ve öncelik sırası
+  `investment-research/PROJECT_STATUS.md` içinde.
+- Backend tarafı (AI dedektör): test, CI/CD ve ortam değişkeni yönetimi hâlâ eksik.
 
 ## Güncelleme Geçmişi
 
 - İlk oluşturma: mevcut kod tabanı (main.py, requirements.txt) incelenerek
   hazırlandı.
 - Genel çalışma prensipleri (CTO/mimar rolü) eklendi.
+- 2026-07-04: Yatırım araştırma sistemi kararları ve açık konuları eklendi.
