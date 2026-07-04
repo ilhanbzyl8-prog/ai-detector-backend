@@ -11,7 +11,7 @@
 | Modül | Dosya | Durum | Son güncelleme |
 |---|---|---|---|
 | M0 — Mimari, klasör yapısı, metodoloji | `README.md` | ✅ tamam | 2026-07-04 |
-| M1 — Makroekonomi | `01-makroekonomi.md` | 🚧 devam | 2026-07-04 |
+| M1 — Makroekonomi | `01-makroekonomi.md` | ✅ tamam | 2026-07-04 |
 | M2 — Şirket analizi | `02-sirket-analizi.md` | 🚧 devam | 2026-07-04 |
 | M3 — Değerleme | `03-degerleme.md` | 🚧 devam | 2026-07-04 |
 | M4 — Teknik analiz | `04-teknik-analiz.md` | 🚧 devam | 2026-07-04 |
