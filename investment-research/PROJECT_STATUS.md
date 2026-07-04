@@ -22,7 +22,7 @@
 | M9 — Davranışsal finans | `09-davranissal-finans.md` | ✅ tamam | 2026-07-04 |
 | M10 — Algoritmik işlemler | `10-algoritmik-islemler.md` | ✅ tamam | 2026-07-04 |
 | M11 — Küresel piyasalar | `11-kuresel-piyasalar.md` | ✅ tamam | 2026-07-04 |
-| M12 — Hukuk ve vergi | `12-hukuk-ve-vergi.md` | 🔜 planlı | — |
+| M12 — Hukuk ve vergi | `12-hukuk-ve-vergi.md` | ✅ tamam | 2026-07-04 |
 | M13 — Güncel durum (kaynaklı anlık görüntü) | `13-guncel-durum-2026.md` | 🔜 planlı | — |
 | M14 — Şirket analiz şablonu | `sablonlar/sirket-analiz-sablonu.md` | 🔜 planlı | — |
 | M15 — Uzman stratejileri karşılaştırması (Buffett/Dalio/Lynch/Marks…) | `uzmanlar/` | 🔜 planlı | — |
