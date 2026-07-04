@@ -28,9 +28,20 @@
 | M15 — Uzman stratejileri karşılaştırması (Buffett/Dalio/Lynch/Marks…) | `uzmanlar/` | 🔜 planlı | — |
 | M16 — Kurum raporları sınıflandırması (SEC/Fed/ECB/TCMB) | `kurum-raporlari/` | 🔜 planlı | — |
 | M17 — Kitap özetleri arşivi (artımlı; hedef: geniş yatırım literatürü) | `kitap-ozetleri/` | 🔜 planlı | — |
-| M18 — Günlük piyasa takip ajanı (tasarım + kod) | `ajanlar/` | 🔜 planlı | — |
+| M18 — Günlük piyasa takip ajanı (tasarım + kod) | `ajanlar/` | 🚧 v1 hazır — canlı doğrulama bekliyor | 2026-07-04 |
 
 ## Oturum Günlüğü
+
+### 2026-07-04 (Oturum 2) — M18 v1
+- Kullanıcı talebiyle M18 öne alındı (M15 sıradaki ilk iş olarak duruyor).
+- Tasarım dokümanı yazıldı: `ajanlar/00-tasarim-gunluk-piyasa-takip.md`.
+- Kod tamamlandı: `ajanlar/piyasa-takip/` (agent.py + config.py + test_agent.py +
+  README). Yalnızca standart kütüphane; Stooq/CoinGecko/FRED anahtarsız kaynaklar.
+- **13/13 birim testi geçti** (ağsız). Ağ kapalıyken davranış doğrulandı: gösterge
+  başına "VERİ YOK + neden", rapor yine üretiliyor.
+- **Açık iş (canlı doğrulama):** sandbox dış ağı kapalı (proxy 403) → ilk gerçek
+  çalıştırma kullanıcı ortamında; `^xu100` ve `cb.f` sembol teyidi; ardından durum
+  ✅'ye çekilecek. GitHub Actions cron'u kullanıcı onayı bekliyor.
 
 ### 2026-07-04 (Oturum 1) — TAMAMLANDI
 - Metodoloji ve mimari kuruldu; **M0–M14 tamamlandı**, her modül ayrı commit ile kaydedildi.
