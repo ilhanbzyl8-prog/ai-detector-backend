@@ -18,7 +18,7 @@
 | M5 — Risk yönetimi | `05-risk-yonetimi.md` | ✅ tamam | 2026-07-04 |
 | M6 — Portföy yönetimi | `06-portfoy-yonetimi.md` | ✅ tamam | 2026-07-04 |
 | M7 — Varlık sınıfları | `07-varlik-siniflari.md` | ✅ tamam | 2026-07-04 |
-| M8 — Türev ürünler | `08-turev-urunler.md` | 🚧 devam | 2026-07-04 |
+| M8 — Türev ürünler | `08-turev-urunler.md` | ✅ tamam | 2026-07-04 |
 | M9 — Davranışsal finans | `09-davranissal-finans.md` | 🚧 devam | 2026-07-04 |
 | M10 — Algoritmik işlemler | `10-algoritmik-islemler.md` | 🚧 devam | 2026-07-04 |
 | M11 — Küresel piyasalar | `11-kuresel-piyasalar.md` | 🚧 devam | 2026-07-04 |
