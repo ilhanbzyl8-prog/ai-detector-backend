@@ -20,7 +20,7 @@
 | M7 — Varlık sınıfları | `07-varlik-siniflari.md` | ✅ tamam | 2026-07-04 |
 | M8 — Türev ürünler | `08-turev-urunler.md` | ✅ tamam | 2026-07-04 |
 | M9 — Davranışsal finans | `09-davranissal-finans.md` | ✅ tamam | 2026-07-04 |
-| M10 — Algoritmik işlemler | `10-algoritmik-islemler.md` | 🚧 devam | 2026-07-04 |
+| M10 — Algoritmik işlemler | `10-algoritmik-islemler.md` | ✅ tamam | 2026-07-04 |
 | M11 — Küresel piyasalar | `11-kuresel-piyasalar.md` | 🚧 devam | 2026-07-04 |
 | M12 — Hukuk ve vergi | `12-hukuk-ve-vergi.md` | 🔜 planlı | — |
 | M13 — Güncel durum (kaynaklı anlık görüntü) | `13-guncel-durum-2026.md` | 🔜 planlı | — |
