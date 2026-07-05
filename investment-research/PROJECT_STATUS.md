@@ -69,6 +69,15 @@
 - **Kalan modüller:** M16 (kurum raporları), M17 (kitap özetleri — artımlı),
   M18 canlı doğrulama, M13 revizyonu (açık veri konuları).
 
+### 2026-07-04 (Oturum 4) — M16 tamam, M17 başladı
+- M16 `kurum-raporlari/` tamamlandı: Fed, SEC, ECB, TCMB/Türkiye (KAP-SPK-TÜİK
+  dahil), IMF/BIS/OECD — rapor türü × sıklık × yatırımcı sinyali (★/◐/○) tabloları
+  ve okuma pratikleri.
+- M17 `kitap-ozetleri/` ilk parti: yöntem + 25 kitaplık ana liste + 6 özet
+  (Graham, Lynch, Marks, Malkiel, Kahneman, Housel).
+- **Sonraki oturum:** M17 parti 2 (Security Analysis, Bogle, Taleb, Dalio,
+  Ilmanen, Klarman öncelikli); M13 revizyonu; M18 canlı doğrulama (kullanıcı tarafında).
+
 ## Kurallar (özet — ayrıntı README.md)
 - Her modül bağımsız commit'lenir; commit mesajı modül adını içerir.
 - Her bilgide kaynak + tarih; belirsiz bilgide `[DOĞRULANMADI]` / `[EĞİTİM VERİSİ]` etiketi.
