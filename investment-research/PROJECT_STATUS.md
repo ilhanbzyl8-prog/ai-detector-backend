@@ -25,7 +25,7 @@
 | M12 — Hukuk ve vergi | `12-hukuk-ve-vergi.md` | ✅ tamam | 2026-07-04 |
 | M13 — Güncel durum (kaynaklı anlık görüntü) | `13-guncel-durum-2026.md` | ✅ tamam | 2026-07-04 |
 | M14 — Şirket analiz şablonu | `sablonlar/sirket-analiz-sablonu.md` | ✅ tamam | 2026-07-04 |
-| M15 — Uzman stratejileri karşılaştırması (Buffett/Dalio/Lynch/Marks…) | `uzmanlar/` | 🔜 planlı | — |
+| M15 — Uzman stratejileri karşılaştırması (9 yatırımcı + matris) | `uzmanlar/` | ✅ tamam | 2026-07-04 |
 | M16 — Kurum raporları sınıflandırması (SEC/Fed/ECB/TCMB) | `kurum-raporlari/` | 🔜 planlı | — |
 | M17 — Kitap özetleri arşivi (artımlı; hedef: geniş yatırım literatürü) | `kitap-ozetleri/` | 🔜 planlı | — |
 | M18 — Günlük piyasa takip ajanı (tasarım + kod) | `ajanlar/` | 🚧 v1 hazır — canlı doğrulama bekliyor | 2026-07-04 |
@@ -58,6 +58,16 @@
   4. M18 — `ajanlar/`: günlük piyasa takip ajanı — önce tasarım dokümanı
      (veri kaynakları, tetikleme, çıktı formatı, M13'ü otomatik güncelleme akışı), sonra kod.
   5. M13 revizyonu — açık konular: TR TÜFE, BIST, ECB/BoJ, petrol/altın, S&P 500/CAPE.
+
+### 2026-07-04 (Oturum 3) — M15 tamam
+- `uzmanlar/` tamamlandı: Graham, Buffett, Munger, Lynch, Marks, Dalio, Soros,
+  Wood, Damodaran (ortak şablon: felsefe → mekanik → belgelenmiş performans →
+  başarısızlıklar → eleştiriler → çelişkiler → taşınabilir dersler) +
+  `karsilastirma.md` (matris, eksen haritası, uzlaşı/çelişki tabloları, sentez).
+- Kayıt kalitesi ilkesi uygulandı: halka açık kayıtlar (Berkshire, Magellan, ARKK)
+  ile denetimsiz hedge fon anlatıları (Quantum, Bridgewater, Oaktree) ayrı etiketlendi.
+- **Kalan modüller:** M16 (kurum raporları), M17 (kitap özetleri — artımlı),
+  M18 canlı doğrulama, M13 revizyonu (açık veri konuları).
 
 ## Kurallar (özet — ayrıntı README.md)
 - Her modül bağımsız commit'lenir; commit mesajı modül adını içerir.
