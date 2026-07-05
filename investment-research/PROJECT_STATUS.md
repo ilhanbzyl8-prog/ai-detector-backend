@@ -27,7 +27,7 @@
 | M14 — Şirket analiz şablonu | `sablonlar/sirket-analiz-sablonu.md` | ✅ tamam | 2026-07-04 |
 | M15 — Uzman stratejileri karşılaştırması (9 yatırımcı + matris) | `uzmanlar/` | ✅ tamam | 2026-07-04 |
 | M16 — Kurum raporları sınıflandırması (SEC/Fed/ECB/TCMB) | `kurum-raporlari/` | ✅ tamam | 2026-07-04 |
-| M17 — Kitap özetleri arşivi (artımlı; hedef: geniş yatırım literatürü) | `kitap-ozetleri/` | 🔜 planlı | — |
+| M17 — Kitap özetleri arşivi (artımlı; hedef: geniş yatırım literatürü) | `kitap-ozetleri/` | 🚧 artımlı — 6/25+ özet | 2026-07-04 |
 | M18 — Günlük piyasa takip ajanı (tasarım + kod) | `ajanlar/` | 🚧 v1 hazır — canlı doğrulama bekliyor | 2026-07-04 |
 
 ## Oturum Günlüğü
