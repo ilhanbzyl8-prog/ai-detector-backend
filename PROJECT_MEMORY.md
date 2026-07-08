@@ -81,6 +81,12 @@ dosya referans alınmalı; kullanıcı yeni bilgi verdikçe burası güncellenir
   dosyaları yeniden oluşturmaz.
 - **Kaynak/güven disiplini:** Her bilgide kaynak + tarih; doğrulanmamış bilgi
   `[DOĞRULANMADI]` / `[EĞİTİM VERİSİ]` etiketiyle işaretlenir. Yatırım tavsiyesi verilmez.
+- **2026-07-08 — Analist rol standardı:** Kullanıcı, şirket/varlık analizlerinde
+  kıdemli aracı kurum analisti kalitesinde 12 bölümlük rapor formatı tanımladı →
+  `investment-research/sablonlar/analist-rapor-sablonu.md`. Raporlar
+  `investment-research/analizler/` altına kaydedilir. Sınırlar korunur: kişiye özel
+  al/sat tavsiyesi yok, "kesin/garanti" dili yasak, canlı veri durumu her raporda
+  beyan edilir, olumsuz görüş serbest.
 
 ## Yapılacaklar / Açık Konular
 
